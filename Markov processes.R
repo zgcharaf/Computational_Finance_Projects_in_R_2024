@@ -45,7 +45,7 @@ create_transition_matrix = function(data){
   
 }
 
-nstep_matrix = 
+nstep_matrix = 2
 #Calculate the transition matrix 
 transition_matrix = create_transition_matrix(return_categories)
 transition_matrixprint(transition_matrix)
